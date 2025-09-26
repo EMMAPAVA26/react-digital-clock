@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formluario1</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <label for="nombre"><strong>Escriba su Nombre:</strong></label>
+        <input type="text" id="nombre" name="name"  placeholder="Nombre"/>
+        <br />
+        <br />
+        <label for="apellido"><strong>Escriba su Apellido:</strong></label>
+        <input type="text" id="apellido" name="apellido"  placeholder="Apellido"/>
+        <br />
+        <br />
+        <label for="email"><strong>Escriba su Email:</strong>:</label>
+        <input type="email" id="email" name="correo"  placeholder="Correo@"/>
+
+        <h2>Qué valoración la da a la página</h2>
+
+        <label for="valoracion1"
+          >1
+          <input type="radio" id="valoracion1" name="valoracion" value="1" />
+        </label>
+
+        <label for="valoracion2"
+          >2
+          <input type="radio" id="valoracion2" name="valoracion" value="2" />
+        </label>
+
+        <label for="valoracion3"
+          >3
+          <input type="radio" id="valoracion3" name="valoracion" value="3" />
+        </label>
+
+        <label for="valoracion4"
+          >4
+          <input type="radio" id="valoracion4" name="valoracion" value="4" />
+        </label>
+
+        <label for="valoración5"
+          >5
+          <input
+            type="radio"
+            id="valoracion5"
+            name="valoracion"
+            value="5"
+          /> </label
+        ><br /><br />
+
+        <h2>Que asignatura has estudiado:</h2>
+        <label> <input type="checkbox" name="html" value="html" />HTML </label>
+        <label> <input type="checkbox" name="css value="css" />CSS </label>
+        <label>
+          <input
+            type="checkbox"
+            name="Javascript"
+            value="Javascript"
+          />Javascript
+        </label>
+        <br />
+        <br />
+
+        <h2>Selecciona un Jugador</h2>
+        <label for="players"></label>
+        <select id="players" name="players" rows="5" cols="30" checked" size="5">
+         <option> Messi</option>
+         <option> Cristiano Ronaldo</option>
+         <option> Sergio Ramos</option>
+         <option> Falcao</option>
+        </select >
+
+        <h2>Que mejorarias de este curso</h2>
+        <label for="curso"></label>
+        <textarea name="curso" id="curso" rows="5" cols="30"></textarea>
+        <br><br>
+
+       <button type="submit">Enviar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

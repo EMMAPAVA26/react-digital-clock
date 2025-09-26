@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://i.blogs.es/b67a60/1366_2000/450_1000.jpeg')
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+.clock-container {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.clock-time {
+  font-size: 3rem;
+  font-weight: bold;
+}
