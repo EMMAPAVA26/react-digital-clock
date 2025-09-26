@@ -1,8 +1,41 @@
-# React + Vite
+# ⏰ Reloj Digital en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto sencillo hecho con **React + Vite** que muestra un reloj digital en tiempo real.  
+El reloj se actualiza cada segundo y está diseñado con estilos modernos y responsivos.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías utilizadas
+- ⚛️ React  
+- ⚡ Vite  
+- 🎨 CSS  
+
+---
+
+## 📂 Instalación y uso
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/EMMAPAVA26/reloj-digital.git
+   cd reloj-digital
+   npm install
+   npm run dev
+
+  
+  ✨ Funcionalidades
+
+⏳ Muestra la hora en formato HH:MM:SS.
+
+🔄 Se actualiza automáticamente cada segundo.
+
+🎨 Estilos minimalistas con fondo de imagen.
+
+📸 Vista previa
+https://react-digital-clock-zeta.vercel.app/
+
+
+👩‍💻 Autor
+
+Desarrollado por Emma Pava
+ 💜
+
